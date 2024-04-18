@@ -12,7 +12,7 @@ const LoginForm = () => {
 const [formData,setFormData] = useState({
     email:"",
     password:"",
-    fcm_token:"cA_u64KqbKFYs4j8IUS-be:APA91bEAplcBBwxVfmG4qmTdBWDZuwFoNQi74NLJXEX7yz6ITbMtZyK9iGaBuiU5PfOv9tnRq_H7mFd51Lvk9XxZVr3WXnMHZZ43IT-x7A8KM4wZphBL27welgVNHRlI7pvEk-074mVL"
+    fcm_token:""
 })
 const [isLoading,setIsLoading] = useState(false);
 const customId = "custom-id-yes";
