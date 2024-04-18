@@ -1,0 +1,29 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+}
+.sidebar{
+    height: 100%;
+    z-index: 1 !important;
+    position: fixed !important;
+    top: 53px !important;
+    left: 0 !important;
+}
+
+.content{
+  position: fixed;
+  left: 17%;
+  top: 7%;
+  flex: 1;
+  overflow: hidden;
+}
+.top-navbar{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+z-index: 100;
+}
+
