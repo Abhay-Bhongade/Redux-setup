@@ -4,6 +4,9 @@ import {addToCart} from "../../rtk/features/cartDataSlice"
 import {useDispatch,useSelector} from "react-redux"
 
 const Dashboard = () => {
+
+    
+
     const handleAdd = (item)=>{
         dispatch(addToCart(item));
     }

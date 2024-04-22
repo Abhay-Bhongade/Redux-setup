@@ -1,5 +1,6 @@
 import { createSlice,createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
+import AxiosInstance from "../../src/ApiConfig/AxiosInstance";
 
 
 //Define the initial state

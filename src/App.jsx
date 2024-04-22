@@ -35,13 +35,15 @@ return token ?
 <TopNavbar/>
 <SideNavbar />
 <Outlet />
-</> : <Navigate to={"/login"} />
+</> : <Navigate to="/login" />
 }
 
   return (
     <>
        <BrowserRouter>
        <Routes> 
+       <Route path="/" element={<Navigate to="/login" />} />
+
         <Route path='/login' element={<LoginForm/>} />
         <Route path='/dashboard' element={<PrivateRoute   isAuthenticated={""} />} >
         <Route path='/dashboard' element={<div className='container-fluid'><div className="row">

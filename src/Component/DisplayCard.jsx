@@ -4,9 +4,9 @@ import {useDispatch,useSelector} from "react-redux"
 import {removeFromCart} from "../../rtk/features/cartDataSlice"
 const DisplayCard = () => {
      const dispatch = useDispatch();
-    // useEffect(() => {
-    //  dispatch(fetchData());
-    // }, [dispatch])
+    useEffect(() => {
+     dispatch(fetchData());
+    }, [dispatch])
 
     // const {data,loading,error} = useSelector((store)=>store.fetchData)
     // console.log("data",data);

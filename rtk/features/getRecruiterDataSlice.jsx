@@ -1,6 +1,9 @@
 import {createSlice,createAsyncThunk} from "@reduxjs/toolkit";
-import { axios } from "axios";
+import axios  from "axios";
 import { API_URLS,config,userRole,API } from "../../src/ApiConfig/ApiConfig";
+import AxiosInstance from "../../src/ApiConfig/AxiosInstance";
+
+console.log("AxiosInstance",AxiosInstance);
 
 const initialState = {
     data:{},
